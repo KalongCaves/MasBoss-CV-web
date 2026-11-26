@@ -10,6 +10,7 @@ export const restaurant = {
   coordinates: { lat: -6.923860275210735, lng: 107.73413661104661 },
   email: "widizoe@gmail.com",
   phone: "+62 8122084366",
+  whatsappNumber: "628122084366", // WhatsApp chat number, country code + digits only.
   hours: [
     { days: "Senin – Kamis", time: "08:00 am – 08:00 pm" },
     { days: "Jumat", time: "01:00 pm – 08:00 pm" },
@@ -20,16 +21,50 @@ export const restaurant = {
       number: "01",
       name: "Garang Asam",
       detail: "Daging ayam kampung · santan · belimbing wuluh · cabai keriting merah · cabe keriting hijau · tomat hijau, tomat merah dan bumbu rempah lainnya",
+      preOrderLinks: [
+        {
+          label: "PO Garang Asem Ayam Kampung",
+          message: "Halo Masakan Masboss, saya ingin pre-order Garang asem ayam kampung.",
+        },
+        {
+          label: "PO Garang Asem Ayam Negeri",
+          message: "Halo Masakan Masboss, saya ingin pre-order garang asam ayam negeri.",
+        },
+      ],
     },
     {
       number: "02",
       name: "Rica-Rica",
       detail: "Daging Entog · Cabe keriting · cabe rawit · cabe merah dan bumbu rempah yang berlimpah.",
+      preOrderLinks: [
+        {
+          label: "PO Rica-Rica Entog",
+          message: "Halo Masakan Masboss, saya ingin pre-order Rica-Rica Entog.",
+        },
+        {
+          label: "PO Rica-Rica Bebek",
+          message: "Halo Masakan Masboss, saya ingin pre-order Rica-Rica Bebek.",
+        },
+        {
+          label: "PO Rica-Rica Ayam Kampung",
+          message: "Halo Masakan Masboss, saya ingin pre-order Rica-Rica Ayam Kampung.",
+        },
+        {
+          label: "PO Rica-Rica Udang Galah",
+          message: "Halo Masakan Masboss, saya ingin pre-order Rica-Rica Udang Galah.",
+        },
+      ],
     },
     {
       number: "03",
       name: "Soto Jawa",
       detail: "Ayam kampung · santan · daun salam · serai · bawang merah · bawang putih · jahe · kunyit · kemiri dan bumbu rempah lainnya",
+      /*preOrderLinks: [
+        {
+          label: "PO Soto Jawa",
+          message: "Halo Masakan Masboss, saya ingin pre-order Soto Jawa.",
+        },
+      ],*/
     },
     /*{
       number: "04",
@@ -75,6 +110,10 @@ export const restaurant = {
     },
   ],
 };
+
+export function buildWhatsAppOrderUrl(message: string) {
+  return `https://wa.me/${restaurant.whatsappNumber}?text=${encodeURIComponent(message)}`;
+}
 
 export const googleMapsUrl =
   "https://maps.app.goo.gl/QuAA2mSD3ToHgwEj6";

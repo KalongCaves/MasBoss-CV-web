@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { restaurant } from "@/data/restaurant";
 
 const links = [
@@ -12,7 +13,7 @@ export default function SiteHeader() {
     <header className="site-header">
       <nav className="nav-shell" aria-label="Main navigation">
         <a className="wordmark" href="#home" aria-label={`${restaurant.name}, home`}>
-          <img src="/images/logo-header.png" alt="" width={50} height={75} />
+          <Image src="/images/logo-header.png" alt="" width={50} height={75} unoptimized />
           <span>{restaurant.name}<small>Kuliner Jawa Tengah</small></span>
         </a>
         <div className="nav-links">

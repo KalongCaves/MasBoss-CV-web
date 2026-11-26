@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { restaurant } from "@/data/restaurant";
 
 export default function StoryPanel() {
