@@ -33,7 +33,7 @@ export default function SeasonalMenu() {
                   </div>
                 )}
               </div>
-              <span className="dish-flourish" aria-hidden="true">✳</span>
+              {dish.price && <span className="dish-price" aria-hidden="true">{dish.price}</span>}
             </article>
           ))}
           <p className="menu-note">Beberapa Menu mungkin harus dipesan terlebih dahulu.</p>
@@ -42,9 +42,9 @@ export default function SeasonalMenu() {
           <div className="menu-photo"><Image src="/images/soto-preview.jpeg" alt="A colorful seasonal plate with vegetables, herbs, and citrus" fill sizes="(max-width: 800px) 100vw, 38vw" /></div>
           <div className="price-note">
             <p className="eyebrow">Main Dish Signature</p>
-            <p className="price">Rp.10.000 <span>/ Porsi</span></p>
-            <p>Soto Jawa Special MasBoss</p>
-            <p>Soto Ayam Jawa dengan Kuah soto khas masboss tanpa merusak cita rasa Soto Jawa asli.</p>
+            <p className="price">Rp.10.000 - 15.000 <span>/ Porsi</span></p>
+            <p>Soto Khas Solo/Klaten</p>
+            <p>Soto Ayam Khas solo/Klaten dengan Kuah soto khas masboss tanpa merusak cita rasa Soto Jawa asli juga tersedia beberapa toping tambahan.</p>
             <a className="text-link" href="https://wa.me/628122084366?text=Halo%20Masakan%20Masboss%2C%20saya%20mau%20tanya%20tentang%20menu%20yang%20tersedia." target="_blank" rel="noreferrer noopener" aria-label="Ask us about the menu">Ask us about the menu <span aria-hidden="true">↗</span></a>
           </div>
         </aside>

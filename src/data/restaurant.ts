@@ -17,70 +17,76 @@ export const restaurant = {
     { days: "Sabtu – Minggu", time: "08:00 am – Habis" },
   ],
   menu: [
+      {
+        number: "01",
+        name: "Garang Asam (1 ekor ±1 kg)",
+        detail: "Daging ayam kampung · santan · belimbing wuluh · cabai keriting merah · cabe keriting hijau · tomat hijau, tomat merah dan bumbu rempah lainnya",
+        price: "Rp. 100.000 - 155.000",
+        preOrderLinks: [
+          {
+            label: "PO Garang Asem Ayam Kampung",
+            message: "Halo Masakan Masboss, saya ingin pre-order Garang asem ayam kampung.",
+          },
+          {
+            label: "PO Garang Asem Ayam Negeri",
+            message: "Halo Masakan Masboss, saya ingin pre-order garang asam ayam negeri.",
+          },
+        ],
+      },
+      {
+        number: "02",
+        name: "Rica-Rica (1 ekor ±1 kg)",
+        detail: "Daging Entog · Cabe keriting · cabe rawit · cabe merah dan bumbu rempah yang berlimpah.",
+        price: "Rp. 145.000 - 200.000",
+        preOrderLinks: [
+          {
+            label: "PO Rica-Rica Entog",
+            message: "Halo Masakan Masboss, saya ingin pre-order Rica-Rica Entog.",
+          },
+          {
+            label: "PO Rica-Rica Bebek",
+            message: "Halo Masakan Masboss, saya ingin pre-order Rica-Rica Bebek.",
+          },
+          {
+            label: "PO Rica-Rica Ayam Kampung",
+            message: "Halo Masakan Masboss, saya ingin pre-order Rica-Rica Ayam Kampung.",
+          },
+          {
+            label: "PO Rica-Rica Udang Galah",
+            message: "Halo Masakan Masboss, saya ingin pre-order Rica-Rica Udang Galah.",
+          },
+        ],
+      },
+      {
+        number: "03",
+        name: "Soto Khas Solo-Klaten",
+        detail: "Soto Original · Soto Campur · Soto Pisah · Soto Kering",
+        price: "Rp. 10.000 - 15.000",
+        /*preOrderLinks: [
+          {
+            label: "PO Soto Jawa",
+            message: "Halo Masakan Masboss, saya ingin pre-order Soto Jawa.",
+          },
+        ],*/
+      },
     {
-      number: "01",
-      name: "Garang Asam",
-      detail: "Daging ayam kampung · santan · belimbing wuluh · cabai keriting merah · cabe keriting hijau · tomat hijau, tomat merah dan bumbu rempah lainnya",
-      preOrderLinks: [
-        {
-          label: "PO Garang Asem Ayam Kampung",
-          message: "Halo Masakan Masboss, saya ingin pre-order Garang asem ayam kampung.",
-        },
-        {
-          label: "PO Garang Asem Ayam Negeri",
-          message: "Halo Masakan Masboss, saya ingin pre-order garang asam ayam negeri.",
-        },
-      ],
-    },
-    {
-      number: "02",
-      name: "Rica-Rica",
-      detail: "Daging Entog · Cabe keriting · cabe rawit · cabe merah dan bumbu rempah yang berlimpah.",
-      preOrderLinks: [
-        {
-          label: "PO Rica-Rica Entog",
-          message: "Halo Masakan Masboss, saya ingin pre-order Rica-Rica Entog.",
-        },
-        {
-          label: "PO Rica-Rica Bebek",
-          message: "Halo Masakan Masboss, saya ingin pre-order Rica-Rica Bebek.",
-        },
-        {
-          label: "PO Rica-Rica Ayam Kampung",
-          message: "Halo Masakan Masboss, saya ingin pre-order Rica-Rica Ayam Kampung.",
-        },
-        {
-          label: "PO Rica-Rica Udang Galah",
-          message: "Halo Masakan Masboss, saya ingin pre-order Rica-Rica Udang Galah.",
-        },
-      ],
-    },
-    {
-      number: "03",
-      name: "Soto Jawa",
-      detail: "Ayam kampung · santan · daun salam · serai · bawang merah · bawang putih · jahe · kunyit · kemiri dan bumbu rempah lainnya",
-      /*preOrderLinks: [
-        {
-          label: "PO Soto Jawa",
-          message: "Halo Masakan Masboss, saya ingin pre-order Soto Jawa.",
-        },
-      ],*/
-    },
-    /*{
       number: "04",
-      name: "Lake trout al carbón",
-      detail: "Wood-fired trout · green mole · grilled spring onion",
+      name: "Sate Ati, Ampela & Telor",
+      detail: "Ati dan Ampela Ayam · telor puyuh rebus bumbu",
+      price: " Rp. 3.000 ",
     },
     {
       number: "05",
-      name: "Short rib barbacoa",
-      detail: "Slow-braised beef · ancho · pickled onion · warm tortillas",
+      name: "Sate Usus",
+      detail: "Usus Ayam goreng",
+      price: "Rp. 2.000",
     },
     {
       number: "06",
-      name: "Cacao & sweet corn",
-      detail: "Dark chocolate · sweet corn cake · cinnamon crema",
-    },*/
+      name: "Tempe",
+      detail: "Tempe Goreng",
+      price: "Rp. 2.000",
+    },
   ],
   faqs: [
     {
