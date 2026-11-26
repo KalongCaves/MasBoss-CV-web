@@ -2,22 +2,22 @@ import type { Metadata, Viewport } from "next";
 import "./tierra.css";
 
 export const metadata: Metadata = {
-  title: "Tierra Mesa | Seasonal Mexican Kitchen in Chicago",
-  description: "A seasonal Mexican kitchen in Chicago’s Wicker Park. Good food, good company, and a little more time around the table.",
-  applicationName: "Tierra Mesa",
-  keywords: ["seasonal Mexican kitchen", "Chicago restaurant", "Wicker Park dining", "tasting menu"],
+  title: "Masakan MasBoss | Masakan Khas Jawa",
+  description: "Masakan khas Jawa yang lezat dan menggugah selera.",
+  applicationName: "Masakan MasBoss",
+  keywords: ["Masakan Khas Jawa", "Tempat Makan Bandung", "Bandung Timur", "Kuliner Jawa Tengah"],
   robots: "index, follow",
   openGraph: {
     type: "website",
     locale: "en_US",
-    title: "Tierra Mesa | Seasonal Mexican Kitchen in Chicago",
-    description: "Season-led cooking, made for sharing in Chicago’s Wicker Park.",
-    siteName: "Tierra Mesa",
+    title: "Masakan MasBoss | Masakan Khas Jawa",
+    description: "Masakan khas Jawa yang lezat dan menggugah selera.",
+    siteName: "Masakan MasBoss",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Tierra Mesa | Seasonal Mexican Kitchen in Chicago",
-    description: "Season-led cooking, made for sharing in Chicago’s Wicker Park.",
+    title: "Masakan MasBoss | Masakan Khas Jawa",
+    description: "Masakan khas Jawa yang lezat dan menggugah selera.",  
   },
 };
 

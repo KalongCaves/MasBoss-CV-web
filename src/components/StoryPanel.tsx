@@ -22,7 +22,7 @@ export default function StoryPanel() {
         <p className="story-lede">di sini, Makanan yang berkesan adalah hal yang terjadi disekitar.</p>
         <p>{restaurant.story}</p>
         <a className="text-link" href="#visit">Kunjungi Kami <span aria-hidden="true">↗</span></a>
-        <div className="signature"><span aria-hidden="true">✳</span><span>Cooked with care<br /><em>Chicago, always</em></span></div>
+        <div className="signature"><span aria-hidden="true">✳</span><span>Cooked with care<br /><em>Bandung, always</em></span></div>
       </div>
     </section>
   );
